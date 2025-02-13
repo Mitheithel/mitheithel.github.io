@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/favicon.png" alt="Logo">
+  <img src="assets/favicon_noborder.png" alt="Logo">
 </p>
 
 # Welcome to Skymith Tehnical Documentation

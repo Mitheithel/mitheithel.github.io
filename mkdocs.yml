@@ -9,7 +9,7 @@ nav:
 theme:
   name: material
   custom_dir: overrides
-  logo: assets/favicon.png
+  logo: assets/favicon_noborder.png
   features:
     - announce.dismiss
     # - content.action.edit
@@ -21,16 +21,16 @@ theme:
     - content.tooltips
     # - header.autohide
     # - navigation.expand
-    - navigation.footer
-    - navigation.indexes
+    # - navigation.footer
+    # - navigation.indexes
     - navigation.instant
     # - navigation.instant.prefetch
     - navigation.instant.progress
     # - navigation.prune
-    - navigation.sections
-    - navigation.tabs
+    # - navigation.sections
+    # - navigation.tabs
     # - navigation.tabs.sticky
-    - navigation.top
+    # - navigation.top
     - navigation.tracking
     - search.highlight
     - search.share
@@ -40,7 +40,7 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue
+      primary: indigo
       accent: teal
       toggle:
         icon: material/weather-sunny
@@ -55,13 +55,13 @@ theme:
   font:
     text: Fira Sans
     code: Fira Code
-  favicon: assets/favicon.png
+  favicon: assets/favicon_noborder.png
   icon:
     logo: logo
 plugins:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  - blog
+  # - blog
   - minify:
       minify_html: true
   - git-revision-date-localized
@@ -91,13 +91,13 @@ extra:
     deprecated: Deprecated
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/gptstonks/
+      link: https://github.com/skymith/
     - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/r/gptstonks
+      link: https://hub.docker.com/r/mitheithel
     - icon: fontawesome/brands/python
-      link: https://pypi.org/project/openbb-chat/
+      link: https://pypi.org/project/skymith/
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/gptstonks
+      link: https://twitter.com/mitheithel
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
