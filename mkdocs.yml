@@ -6,10 +6,12 @@ docs_dir: docs
 copyright: Copyright &copy; 2024 - 2025 Mitheithel
 nav:
   - Home: index.md
+  - API Swagger: https://docs.skymith.com/skymith/
+  - API Reference: https://docs.skymith.com/skymith/libs/skymith-sdk/
 theme:
   name: material
   custom_dir: overrides
-  logo: assets/favicon_noborder.png
+  logo: assets/favicon_noborder_white.png
   features:
     - announce.dismiss
     # - content.action.edit
@@ -26,9 +28,9 @@ theme:
     - navigation.instant
     # - navigation.instant.prefetch
     - navigation.instant.progress
-    # - navigation.prune
-    # - navigation.sections
-    # - navigation.tabs
+    - navigation.prune
+    - navigation.sections
+    - navigation.tabs
     # - navigation.tabs.sticky
     # - navigation.top
     - navigation.tracking

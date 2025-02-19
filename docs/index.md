@@ -2,11 +2,11 @@
   <img src="assets/favicon_noborder.png" alt="Logo">
 </p>
 
-# Welcome to Skymith Tehnical Documentation
+# Welcome to Skymith Technical Documentation
 
 ## Getting Started
 
-The best way to see how Skymith works is to try it! You can create an account for free in https://skymith.com. Afterwards, you will be assigned API key that you will need throughout this tutorial. 
+The best way to see how Skymith works is to try it! You can create an account for free in https://skymith.com. Afterwards, you will be assigned API key that you will need throughout this tutorial.
 
 ### Holmes
 
@@ -15,21 +15,18 @@ Holmes is our service for searching the web automatically, so that you can build
 - **Speed:** focused on retrieving the information fast and accurately, not in depth.
 - **Quality:** focused on providing complete answers, with great depth and breath. Really useful for open-ended questions and/or really specific research.
 
-Here is a sample code with the API key retrieved from your account:
+### Strider
 
-### Collie
-
-Collie is our service for comparing products accross different platforms that you provide. The information to retrieve for the product is defined in the query itself to improve the flexibility of the product.
-
-Sample code:
+Strider is our service for comparing products across different platforms that you provide. The information to retrieve for the product is defined in the query itself to improve the flexibility of the product.
 
 **Important:** you must have permission to retrieve information from those platforms, and our user agent Mitheithel must be allowed in their robots.txt for this service to work with them.
 
-### Daily Financial News
+### Buffet: Public Financial Information
 
-To power our service GPTStonks (https://gptstonks.net), we research and summarize the most important financial news of the day, everyday. With our Daily Financial News endpoint you can have access to our summaries up until the last 7 days.
+To power our service GPTStonks (https://gptstonks.net), we have developed a set of tools that we now serve as services:
 
-Sample code:
+- We research and summarize the most important financial news of the day, everyday. With our Daily Financial News endpoint you can have access to our summaries.
+- We propose a financial concept to learn every day.
 
 ## Data Policies
 
